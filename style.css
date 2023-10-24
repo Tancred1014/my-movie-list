@@ -1,0 +1,218 @@
+/*  CSS Reset  */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*  CSS Custom  */
+body {
+  user-select: none;
+  /* supported by Chrome and Opera */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+}
+
+.card {
+  width: 16rem;
+  display: inline-block;
+  margin: 0.95rem 0.8rem 0.8rem 0.8rem;
+  border-color: rgba(255, 255, 255, 0.75);
+  position: relative;
+}
+
+.item-list {
+  padding: 0 2rem;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+.poster-favorite {
+  color: rgb(200, 200, 200);
+}
+
+.pos-right-up {
+  position: absolute;
+  top: 2%;
+  right: 0;
+}
+
+.poster-favorite:hover {
+  color: rgb(160, 160, 160);
+}
+
+.card-body {
+  width: 100%;
+  min-height: 80px;
+  padding: 0;
+  line-height: 1.25rem;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.poster-img {
+  min-height: 381px;
+}
+
+.modal-poster-img {
+  width: 24rem;
+  max-height: 576px;
+}
+
+.modal-poster-info p {
+  line-height: 2rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+}
+
+.loading-spinner {
+  margin-top: 1rem;
+}
+
+.form-control {
+  border-color: white;
+}
+
+.form-control:focus {
+  border-color: rgb(255, 200, 0);
+  box-shadow: 0 0 0 0.15rem rgba(255, 200, 0, 0.5);
+}
+
+.navbar {
+  background-color: rgba(113, 44, 249, 0.95);
+}
+
+.heart-pink {
+  color: rgb(255, 128, 149);
+}
